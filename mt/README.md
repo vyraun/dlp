@@ -1,19 +1,19 @@
-# Machine Translation Part
+### Machine Translation Experiments
 
-###Pre-Run
+#### Pre-Run
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
-###Commands to get embeddings
+### Commands to get embeddings
 
-get_all_pretrained.sh
+```get_all_pretrained.sh```
 
 ### Commands to Train + Evaluate (e.g. a language pair might be: en-aztr):
 
-cd scripts
+```cd scripts```
 
-bash build_vocab.sh en-az
+```bash build_vocab.sh en-az```
 
-bash train.sh en-az
+```bash train.sh en-az```
 
-bash decode.sh en-az
+```bash decode.sh en-az```
