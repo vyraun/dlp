@@ -1,4 +1,4 @@
-# Sentence Evaluation Experiments
+### Sentence Evaluation Experiments
 
 #### Pre-run Requirements:
 -------------------------------
@@ -8,26 +8,26 @@
 * mv SentEval-master SentEval
 -------------------------------
 
-### Step 1
+### Steps to Replicate
 
-wget http://nlp.stanford.edu/data/glove.6B.zip
+#### Step 1
 
-unzip glove.6B.zip
+```wget http://nlp.stanford.edu/data/glove.6B.zip```
 
-### Step 2
+```unzip glove.6B.zip```
 
-Rum dim.py 300 glove300d
+#### Step 2
 
-### Step 3
+```python dim.py 300 glove300d```
 
-Choose a task in bow_main.py
+#### Step 3
 
-### Step 4
+```Choose a task in bow_main.py```
 
-bash run.sh >& results_bigram.txt
+#### Step 4
 
-### Step 5
+```bash run.sh >& results_bigram.txt```
 
-python extract_single_task.py results_bigram.txt
+#### Step 5
 
-
+```python extract_single_task.py results_bigram.txt```
