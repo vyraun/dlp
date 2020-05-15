@@ -1,5 +1,5 @@
-# Stpes to Replicate
+# Steps to Replicate
 
-Please read the ReadMe's in the individual folders for the corresponding experiments.
+Please read the Readme's in the individual folders for the corresponding experiments.
 
 This is the code repository for Dimensional Linguistic Properties of Word Embeddings.
