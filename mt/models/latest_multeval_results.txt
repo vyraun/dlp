@@ -1,0 +1,77 @@
+MultEval V0.5.1
+By Jonathan Clark
+Using Libraries: METEOR (Michael Denkowski) and TER (Matthew Snover)
+
+Loading metric: bleu
+Loading metric: meteor
+Loading metric: ter
+Loading metric: length
+Found library jBLEU at file:/Users/vyraun/Seq2Seq_MT/multeval-0.5.1/multeval-0.5.1.jar
+Found library METEOR at file:/Users/vyraun/Seq2Seq_MT/multeval-0.5.1/lib/meteor-1.4/meteor-1.4.jar
+Using METEOR Version 1.4
+Loading METEOR paraphrase table...
+Loaded METEOR in 10.6 s
+Found library TER at file:/Users/vyraun/Seq2Seq_MT/multeval-0.5.1/lib/tercom-0.8.0.jar
+Using 4 threads
+Reading Hypotheses for system baseline opt run 1 file /Users/vyraun/Seq2Seq_MT/multeval-0.5.1/../decode.txt
+Reading non-laced references file /Users/vyraun/Seq2Seq_MT/multeval-0.5.1/../data/test.de-en.en
+Collecting sufficient statistics for metric: BLEU
+Finished collecting sufficient statistics for metric: BLEU
+Collecting sufficient statistics for metric: METEOR
+Finished collecting sufficient statistics for metric: METEOR
+Collecting sufficient statistics for metric: TER
+Finished collecting sufficient statistics for metric: TER
+Collecting sufficient statistics for metric: Length
+Finished collecting sufficient statistics for metric: Length
+Collected suff stats in 10.3 s
+Scoring with metric: BLEU
+RESULT: baseline: BLEU: AVG: 23.886401
+RESULT: baseline: BLEU: MEDIAN: 23.886401
+RESULT: baseline: BLEU: STDDEV: NaN
+RESULT: baseline: BLEU: MIN: 23.886401
+RESULT: baseline: BLEU: MAX: 23.886401
+RESULT: baseline: BLEU: MEDIAN_IDX: 0.000000
+Scoring with metric: METEOR
+RESULT: baseline: METEOR: AVG: 28.257852
+RESULT: baseline: METEOR: MEDIAN: 28.257852
+RESULT: baseline: METEOR: STDDEV: NaN
+RESULT: baseline: METEOR: MIN: 28.257852
+RESULT: baseline: METEOR: MAX: 28.257852
+RESULT: baseline: METEOR: MEDIAN_IDX: 0.000000
+Scoring with metric: TER
+RESULT: baseline: TER: AVG: 60.348022
+RESULT: baseline: TER: MEDIAN: 60.348022
+RESULT: baseline: TER: STDDEV: NaN
+RESULT: baseline: TER: MIN: 60.348022
+RESULT: baseline: TER: MAX: 60.348022
+RESULT: baseline: TER: MEDIAN_IDX: 0.000000
+Scoring with metric: Length
+RESULT: baseline: Length: AVG: 104.660632
+RESULT: baseline: Length: MEDIAN: 104.660632
+RESULT: baseline: Length: STDDEV: NaN
+RESULT: baseline: Length: MIN: 104.660632
+RESULT: baseline: Length: MAX: 104.660632
+RESULT: baseline: Length: MEDIAN_IDX: 0.000000
+Top unmatched hypothesis words accoring to METEOR: [, x 4358, the x 2020, you x 1730, to x 1531, a x 1345, of x 1300, &apos;s x 1173, it x 1167, and x 1101, that x 975]
+Top unmatched reference words accoring to METEOR: [, x 1100, that x 1077, the x 879, of x 842, to x 786, it x 667, in x 643, and x 610, &apos;s x 597, a x 505]
+Performing bootstrap resampling to estimate stddev for test set selection (System 1 of 1; opt run 1 of 1)
+RESULT: baseline: BLEU: RESAMPLED_MEAN_AVG: 23.884788
+RESULT: baseline: BLEU: RESAMPLED_STDDEV_AVG: 0.240510
+RESULT: baseline: BLEU: RESAMPLED_MIN: 22.901024
+RESULT: baseline: BLEU: RESAMPLED_MAX: 24.954650
+RESULT: baseline: METEOR: RESAMPLED_MEAN_AVG: 28.256809
+RESULT: baseline: METEOR: RESAMPLED_STDDEV_AVG: 0.126907
+RESULT: baseline: METEOR: RESAMPLED_MIN: 27.724865
+RESULT: baseline: METEOR: RESAMPLED_MAX: 28.799839
+RESULT: baseline: TER: RESAMPLED_MEAN_AVG: 60.349661
+RESULT: baseline: TER: RESAMPLED_STDDEV_AVG: 0.413551
+RESULT: baseline: TER: RESAMPLED_MIN: 58.563527
+RESULT: baseline: TER: RESAMPLED_MAX: 61.974370
+RESULT: baseline: Length: RESAMPLED_MEAN_AVG: 104.657540
+RESULT: baseline: Length: RESAMPLED_STDDEV_AVG: 0.399806
+RESULT: baseline: Length: RESAMPLED_MIN: 102.854487
+RESULT: baseline: Length: RESAMPLED_MAX: 106.075856
+Performed bootstrap resampling in 13.4 s
+n=1            BLEU (s_sel/s_opt/p)   METEOR (s_sel/s_opt/p) TER (s_sel/s_opt/p)    Length (s_sel/s_opt/p) 
+baseline       23.9 (0.2/*/-)         28.3 (0.1/*/-)         60.3 (0.4/*/-)         104.7 (0.4/*/-)        
+  *  Indicates no estimate of optimizer instability due to single optimizer run. Consider multiple optimizer runs.
