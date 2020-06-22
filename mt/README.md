@@ -8,7 +8,7 @@
 
 ```get_all_pretrained.sh```
 
-### Commands to Train + Evaluate (e.g. a language pair might be: en-aztr):
+### Commands to Train + Evaluate (e.g. a language pair might be: en-az):
 
 ```cd scripts```
 
