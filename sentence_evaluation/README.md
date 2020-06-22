@@ -1,4 +1,4 @@
-### Sentence Evaluation Experiments
+### Sentence Classification Experiments
 
 #### Pre-run Requirements:
 -------------------------------
