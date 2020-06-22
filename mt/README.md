@@ -1,8 +1,10 @@
 ### Machine Translation Experiments
 
-#### Pre-Run
-
-```pip install -r requirements.txt```
+#### Requirements:
+-------------------------------
+* Python 3.6 environment
+* ```pip install -r requirements.txt```
+-------------------------------
 
 ### Commands to get embeddings
 
