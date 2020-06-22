@@ -23,6 +23,4 @@ If you find our code useful, please cite our paper:
 
 ### Steps to Replicate the Experiments
 
-Please read the Readme's in the individual folders for the corresponding experiments.
-
-
+Please read the Readme's in the individual directories for the corresponding experiments, starting with ```word_evaluation``` and using the generated emeddings in ```sentence_evaluation``` and ``mt``.
