@@ -21,7 +21,7 @@ If you find our code useful, please cite our ACL Repl4NLP 2020 paper: [On Dimens
 }
 ```
 
-# Steps to Replicate the Experiments
+### Steps to Replicate the Experiments
 
 Please read the Readme's in the individual folders for the corresponding experiments.
 
