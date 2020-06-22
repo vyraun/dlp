@@ -1,6 +1,6 @@
 ### Sentence Classification Experiments
 
-#### Pre-run Requirements:
+#### Requirements:
 -------------------------------
 * Python 3.6 environment
 * wget https://github.com/facebookresearch/SentEval/archive/master.zip
