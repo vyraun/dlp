@@ -95,7 +95,7 @@ msgpack-python==0.5.6
 multipledispatch==0.5.0
 nb-conda==2.2.1
 nb-conda-kernels==2.1.1
-nbconvert==5.3.1
+nbconvert==6.5.1
 nbformat==4.4.0
 networkx==2.1
 nltk==3.3
