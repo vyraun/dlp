@@ -8,7 +8,7 @@ bleach==2.1.4
 bokeh==0.12.13
 boto3==1.7.82
 botocore==1.10.84
-certifi==2018.8.24
+certifi==2022.12.7
 cffi==1.11.5
 characteristic==14.3.0
 chardet==3.0.4
